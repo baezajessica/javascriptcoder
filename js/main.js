@@ -3,7 +3,7 @@
 alert("Hola soy tu Generador de Contraseñas Inhackeable");
 let nombrePersona = prompt("¿Cuál es tu nombre?");
 let nombreApp = prompt("Por favor Ingresa el nombre de la Aplicacion/Sitio Web para la que desea su contraseña. ");
-console.log("El usuario ingresó:", nombreApp);
+console.log("a ver si me sale we:", nombrePersona);
 
 let longitud = prompt("Ingresa la cantidad de caracteres de la contraseña (Ej: 10)");
 
@@ -43,6 +43,6 @@ if (!mayusculas && !minusculas && !numeros && !simbolos) {
     }
 
      //RESULTADO
-    alert("¡Listo " + nombrePersona + " Tu contraseña segura para " + nombreApp + " es:" + contraseñaGenerada);
+    alert("¡Listo " + nombrePersona + "  tu contraseña segura para " + nombreApp + " es:" + contraseñaGenerada + "!");
+   console.log("La contraseña de", nombrePersona, "para", nombreApp ,"contiene:", longitud, "caracteres y es:", contraseñaGenerada,"!");
 }
-//console.log("La contraseña de", nombrepersona, "para", nombreApp ,"contiene:", longitud, "caracteres,");
